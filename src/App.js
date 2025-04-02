@@ -1,16 +1,10 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Transformation from "./pages/Transformation";
+import React from 'react';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/transformation" element={<Transformation />} />
-      </Routes>
-    </Router>
+    <div>
+      <h1>Привет из Волшебной таблетки AI!</h1>
+    </div>
   );
 }
 
